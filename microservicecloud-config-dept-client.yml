@@ -3,6 +3,8 @@
     active: 
       - dev
 ---
+server:
+  port: 8001
 spring:
   profiles: dev
   application:
@@ -42,6 +44,8 @@ info:
 
 
 ---
+server:
+  port: 8001
 spring:
   profiles: test
   application:
