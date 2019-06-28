@@ -1,8 +1,7 @@
-spring:
+锘縮pring:
   profiles:
-    active:
+    active: 
       - dev
-
 ---
 spring:
   profiles: dev
@@ -15,9 +14,9 @@ spring:
     username: root
     password: wei123
     dbcp2:
-      min-idle: 5                                           # 数据库连接池的最小维持连接数
-      initial-size: 5                                       # 初始化连接数
-      max-total: 5                                          # 最大连接数
+      min-idle: 5                                           # 鏁版嵁搴撹繛鎺ユ睜鐨勬渶灏忕淮鎸佽繛鎺ユ暟
+      initial-size: 5                                       # 鍒濆鍖栬繛鎺ユ暟
+      max-total: 5                                          # 鏈�澶ц繛鎺ユ暟
       max-wait-millis: 200
 
 mybatis:
@@ -54,9 +53,9 @@ spring:
     username: root
     password: wei123
     dbcp2:
-      min-idle: 5                                           # 数据库连接池的最小维持连接数
-      initial-size: 5                                       # 初始化连接数
-      max-total: 5                                          # 最大连接数
+      min-idle: 5                                           # 鏁版嵁搴撹繛鎺ユ睜鐨勬渶灏忕淮鎸佽繛鎺ユ暟
+      initial-size: 5                                       # 鍒濆鍖栬繛鎺ユ暟
+      max-total: 5                                          # 鏈�澶ц繛鎺ユ暟
       max-wait-millis: 200
 
 mybatis:
